@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mezzo</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="background">
+                <h1>Welcome to Mezzo!</h1>
+                <br><br>
+                <h3>Proxy server</h3>
+            
+                <form action=name formmethod="GET">
+                    URL: <input id="inputURL" type="url" name="url" size="50px">
+                    <input class="btnSubmit" type="submit" required="required">
+                </form>
+
+                <button onclick="myFunction()">Try it</button>
+                <p id="demo">This is the text</p>
+            
+            </div>
+        </div>
+        
+        <script>
+            function myFunction() {
+                document.querySelector("#inputURL").value;
+                document.getElementById("demo").innerHTML = x;
+            }
+        </script>
+
+    </body>
+</html>
